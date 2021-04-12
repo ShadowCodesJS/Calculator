@@ -1,0 +1,73 @@
+.calculator {
+  max-width: 200px;
+  max-height: 300px;
+  border: 3px solid rgb(0, 143, 23);
+  display: table;
+  margin: 10px;
+  background: rgba(127, 123, 134, 0.672);
+}
+
+
+body {
+  text-align: center;
+  display:table;
+}
+
+.num {
+  width: 30px;
+  height: 30px;
+  color: darkgreen;
+  background: rgba(20, 147, 83, 0.4);
+  border: 2px ridge darkgrey;
+  margin: 10px;
+}
+
+.output {
+  width: auto;
+  height: auto;
+  border: 5px ridge rgba(20, 90, 20, 0.78);
+  color: slategray;
+  font-family: "Open Sans";
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-align: right;
+  background: rgba(0, 255, 0, 0.612);
+  margin: 10px;
+}
+
+.num:hover {
+  cursor: pointer;
+  opacity: 0.35;
+  background: cyan;
+}
+
+.clear {
+  width: 30px;
+  height: 30px;
+  color: darkred;
+  background: rgba(178, 34, 12, 0.4);
+  border: 2px ridge darkgrey;
+  text-align: center;
+  margin: 10px;
+}
+
+.clear:hover {
+  cursor: pointer;
+  opacity: 0.35;
+  background: cyan;
+}
+
+.ops, .equal {
+  width: 30px;
+  height:30px;
+  color: Royalblue;
+  background: rgba(40, 79, 193, 0.4);
+  border: 2px ridge darkgrey;
+  margin: 10px;
+}
+
+.ops:hover, .equal:hover {
+  cursor: pointer;
+  opacity: 0.35;
+  background: cyan
+}
